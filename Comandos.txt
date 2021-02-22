@@ -1,0 +1,23 @@
+python manage.py migration -> Crea la estructura inicial del proyecto en la bd
+
+python manage.py makemigration app_name -> crea las estructuras de las tablas acorde a los modelos definidos de la app_name
+
+
+Metodos de las API's:
+
+   Create - Insert - Add -->>>>     POST
+   Retrive - Fectch      -->>>>     GET
+   Update - Edit         -->>>>     PUT
+   Delete - Remove       -->>>>     DELETE
+
+Paquetes necesarios para el despliegue:
+
+   pip instal gunicorn
+   pip install psycopg2
+   pip install jd-databse-url
+
+
+Variables de Entorno
+   pip install python-decouple
+
+
